@@ -6,33 +6,6 @@
 
     <groupId>com.github.roboflax</groupId>
     <artifactId>test-project</artifactId>
-    <version>3.2</version>
-    <packaging>jar</packaging>
-
-    <name>test-project</name>
-    <description>A Test Project.</description>
-    <url>https://github.com/RoboFlax/test-project</url>
-
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
-
-    <developers>
-        <developer>
-            <name>Manfred Moser</name>
-            <email>manfred@sonatype.com</email>
-            <organization>com.github.roboflax</organization>
-            <organizationUrl>https://github.com/RoboFlax</organizationUrl>
-        </developer>
-    </developers>
-
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-        </dependency>
-    </dependencies>
+    <version>3.3</version>
 
 </project>
