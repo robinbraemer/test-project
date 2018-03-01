@@ -6,8 +6,8 @@
 
     <groupId>com.github.roboflax</groupId>
     <artifactId>test-project</artifactId>
-    <version>3.5</version>
-    <packaging>pom</packaging>
+    <version>3.6</version>
+    <packaging>jar</packaging>
 
     <build>
         <plugins>

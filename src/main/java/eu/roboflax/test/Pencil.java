@@ -4,11 +4,11 @@
  */
 package eu.roboflax.test;
 
-public class Pen {
+public class Pencil {
     
     private String colorX;
     
-    public Pen( String color ) {
+    public Pencil( String color ) {
         this.colorX = color;
     }
 }
