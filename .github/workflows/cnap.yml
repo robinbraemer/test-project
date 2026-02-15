@@ -1,5 +1,5 @@
 name: CNAP Build & Deploy
-on: { push: { branches: [master] }, workflow_dispatch: }
+on: { push: { branches: [master] }, pull_request: { branches: [master] }, workflow_dispatch: }
 
 jobs:
   cnap:
@@ -7,4 +7,4 @@ jobs:
     permissions: { contents: read, packages: write, id-token: write }
     secrets: inherit
     with:
-      cnap-notify-url: 'https://smee.io/GUdz4uYX6q1oo0y1notify'
+      cnap-notify-url: 'https://devtun.cnap.tech/tunnel/cnap-dev-robin/api/github/build-notify'
