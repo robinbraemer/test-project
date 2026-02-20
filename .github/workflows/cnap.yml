@@ -6,5 +6,3 @@ jobs:
     uses: cnap-tech/actions/.github/workflows/cnap.yml@main
     permissions: { contents: read, packages: write, id-token: write }
     secrets: inherit
-    with:
-      cnap-notify-url: 'https://devtun.cnap.tech/tunnel/cnap-dev-robin/api/github/build-notify'
